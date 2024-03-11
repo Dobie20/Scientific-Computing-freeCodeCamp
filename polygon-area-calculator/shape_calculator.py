@@ -66,7 +66,8 @@ class Square(Rectangle):
 
   pass
 
-
+# Usage example
+"""
 rect = Rectangle(10, 5)
 print(rect.get_area())
 rect.set_height(3)
@@ -84,3 +85,4 @@ print(sq.get_picture())
 rect.set_height(8)
 rect.set_width(16)
 print(rect.get_amount_inside(sq))
+"""
